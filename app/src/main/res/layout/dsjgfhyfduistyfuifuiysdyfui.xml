@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bac"
+    android:id="@+id/Mlayout"
+    tools:context=".aafehxuj.view.srdgjhuisfdgy">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame2"
+        android:layout_width="344dp"
+        android:layout_height="284dp"
+        android:background="@drawable/desk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/CoinsRewerd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:text="Your reward 0"
+        android:textColor="@color/button"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/frame2"
+        app:layout_constraintEnd_toEndOf="@+id/frame2"
+        app:layout_constraintStart_toStartOf="@+id/frame2"
+        app:layout_constraintTop_toTopOf="@+id/frame2" />
+
+    <Button
+        android:id="@+id/rdfslgtkdlfjkg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4A2E26"
+        android:text="claim"
+        app:layout_constraintBottom_toBottomOf="@+id/frame2"
+        app:layout_constraintEnd_toEndOf="@+id/frame2"
+        app:layout_constraintStart_toStartOf="@+id/frame2"
+        app:layout_constraintTop_toBottomOf="@+id/CoinsRewerd" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

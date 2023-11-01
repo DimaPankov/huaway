@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dsfusdyreyureuyer">
+
+    <fragment
+        android:id="@+id/srdgjhuisfdgy"
+        android:name="com.sevens.slots.spectgame.dsfkhfjkdshfjsdk.lfjslkdsjfjdsf.jkdlsjhfjsdhfjki.srdgjhuisfdgy"
+        android:label="srdgjhuisfdgy"
+        tools:layout="@layout/srdgjhuisfdgy" >
+        <action
+            android:id="@+id/action_game_new_coins"
+            app:destination="@id/action_game_new_coins" />
+        <action
+            android:id="@+id/action_game_bet"
+            app:destination="@id/dsgfsdgfgsgssfgfsdg" />
+        <action
+            android:id="@+id/fsndsefsf"
+            app:destination="@id/sdefoisduoioooii" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/sdefoisduoioooii"
+        android:name="com.sevens.slots.spectgame.dsfkhfjkdshfjsdk.lfjslkdsjfjdsf.jkdlsjhfjsdhfjki.sdefoisduoioooii"
+        android:label="sdefoisduoioooii"
+        tools:layout="@layout/sdefoisduoioooii" >
+        <action
+            android:id="@+id/dsofihyisfuifss"
+            app:destination="@id/srdgjhuisfdgy" />
+    </fragment>
+    <fragment
+        android:id="@+id/action_game_new_coins"
+        android:name="com.sevens.slots.spectgame.dsfkhfjkdshfjsdk.lfjslkdsjfjdsf.jkdlsjhfjsdhfjki.dsjgfhyfduistyfuifuiysdyfui"
+        tools:layout="@layout/dsjgfhyfduistyfuifuiysdyfui"
+        android:label="dsjgfhyfduistyfuifuiysdyfui">
+        <action
+            android:id="@+id/dsgdfgdfgvbngdrfhhnfg"
+            app:destination="@id/srdgjhuisfdgy" />
+    </fragment>
+    <fragment
+        android:id="@+id/dsgfsdgfgsgssfgfsdg"
+        android:name="com.sevens.slots.spectgame.dsfkhfjkdshfjsdk.lfjslkdsjfjdsf.jkdlsjhfjsdhfjki.dsgfsdgfgsgssfgfsdg"
+        android:label="dsgfsdgfgsgssfgfsdg"
+        tools:layout="@layout/dsgfsdgfgsgssfgfsdg" >
+        <action
+            android:id="@+id/bet_game"
+            app:destination="@id/srdgjhuisfdgy" />
+    </fragment>
+    <fragment
+        android:id="@+id/dsfusdyreyureuyer"
+        android:name="com.sevens.slots.spectgame.dsfkhfjkdshfjsdk.lfjslkdsjfjdsf.jkdlsjhfjsdhfjki.jkdsgjkdshfdhsfhjdh"
+        tools:layout="@layout/dsfusdyreyureuyer"
+        android:label="action_loading_game">
+        <action
+            android:id="@+id/action_web_game"
+            app:destination="@id/srdgjhuisfdgy" />
+    </fragment>
+</navigation>
